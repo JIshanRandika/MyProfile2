@@ -8,16 +8,16 @@ export default class Portfolio extends Component {
   render() {
     let resumeData = this.props.resumeData;
     return (
-      <section id="portfolio" style={{background:"#ffffff"}}>
+      <section id="portfolio" style={{background:"#ffffff",height:"100%",marginBottom:"50px"}}>
           <h1>Check Out Some of My Works.</h1>
-        <Row style={{width:"100%", height:"500px"}}>
+        <Row style={{width:"100%"}}>
 
               {
                   resumeData.portfolio && resumeData.portfolio.map((item)=>{
                       return(
                           <Col md="3" xs="12" style={{width:"100%", background:"#ffffff"}}>
                           <Link to={`${item.router}`}>
-                              <div className="portfolio-item">
+                              <div className="portfolio-item shadow">
                                   {/*<div className="columns portfolio-item">*/}
                                   <div className="item-wrap">
                                       <img src={`${item.imgurl}`} className="item-img"/>

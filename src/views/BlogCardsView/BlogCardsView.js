@@ -4,17 +4,19 @@ import Button from 'react-bootstrap/Button';
 
 
 
-import resumeData from './resumeData';
-import Navigation from "./components/Navigation";
-import Cards from "./components/BlogCardComponent/BlogCardComponent";
+import resumeData from '../../resumeData';
+import Navigation from "../../components/Navigation";
+import Cards from "../../components/BlogCardComponent/BlogCardComponent";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Form from "react-bootstrap/Form";
 import FormControl from "react-bootstrap/FormControl";
 import Card from "react-bootstrap/Card";
+import ContactUs from "../../components/ContactUs";
+import Footer from "../../components/Footer";
 
 
-class Project extends Component {
+class BlogCardsCiew extends Component {
     render() {
         return (
 
@@ -25,7 +27,8 @@ class Project extends Component {
 
                 <Navigation resumeData={resumeData}/>
                 <Cards resumeData={resumeData}/>
-
+                <ContactUs resumeData={resumeData}/>
+                <Footer resumeData={resumeData}/>
             </div>
 
 
@@ -33,4 +36,4 @@ class Project extends Component {
     }
 }
 
-export default Project
+export default BlogCardsCiew

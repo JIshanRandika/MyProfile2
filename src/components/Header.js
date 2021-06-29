@@ -11,7 +11,7 @@ export default class Header extends Component {
       
       <header id="home">
 
-         <nav id="nav-wrap" style={{alignItems:"center"}}>
+         <nav  id="nav-wrap" style={{alignItems:"center", display:"block"}}>
                  {/*<di>HI</di>*/}
             <a className="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
             <a className="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
@@ -22,7 +22,7 @@ export default class Header extends Component {
                          <li className="current"><a className="smoothscroll" href="#home">Home</a></li>
                          <li><a className="smoothscroll" href="#about">About</a></li>
                          <li><a className="smoothscroll" href="#about">Gallery</a></li>
-                         <li><a className="smoothscroll" href="#resume">Blogs</a></li>
+                         <li><a className="smoothscroll" href="http://localhost:3000/blogCards">Blogs</a></li>
                          <li><a className="smoothscroll" href="#portfolio">Resume</a></li>
                          <li><a className="smoothscroll" href="#testimonials">Cerfications</a></li>
                          <li><a className="smoothscroll" href="#contact">Honors & Awards</a></li>

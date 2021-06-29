@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import Home from './views/Home/Home';
+import BlogCardsView from './views/BlogCardsView/BlogCardsView';
 import Learning from './Learning';
 import Achievement from './achievements';
 import Kvns from './components/learning/Kvns';
@@ -17,7 +18,7 @@ import Betting from './components/projects/Betting';
 import "../node_modules/video-react/dist/video-react.css";
 
 // import 'bootstrap/dist/css/bootstrap.min.css';
-
+//    "bootstrap": "^4.6.0",
 import * as serviceWorker from './serviceWorker';
 import {BrowserRouter as Router, Route} from 'react-router-dom'
 
@@ -37,6 +38,7 @@ const routing = (
             <Route exact path="/ijse" component={Ijse} />
             <Route exact path="/acbt" component={Acbt} />
             <Route exact path="/self" component={Self} />
+            <Route exact path="/blogCards" component={BlogCardsView} />
         </div>
     </Router>
 )

@@ -116,19 +116,19 @@ let resumeData = {
     ],
     "portfolio":[
       {
-        "date":"My Life",
+        "date":"RESUME",
         "description":"Happy for ever",
         "imgurl":"images/portfolio/girl.jpg",
           "router":"/MyLife"
       },
       {
-        "date":"Projects",
+        "date":"BLOGS",
         "description":"Individual & group project works",
         "imgurl":"images/portfolio/console.jpg",
-          "router":"/Project"
+          "router":"/blogCards"
       },
       {
-        "date":"Learnings",
+        "date":"CERTIFICATION",
         "description":"learn some thing every day",
         "imgurl":"images/portfolio/learning.jpg",
           "router":"/Learn"
@@ -136,31 +136,31 @@ let resumeData = {
       },
 
       {
-        "date":"Achievements",
+        "date":"PROJECTS",
         "description":"Succeed life goals",
         "imgurl":"images/portfolio/achievements.jpg",
           "router":"/Achievement"
       },
         {
-            "date":"Achievements",
+            "date":"HONORS & AWARDS",
             "description":"Succeed life goals",
             "imgurl":"images/portfolio/achievements.jpg",
             "router":"/Achievement"
         },
         {
-            "date":"Achievements",
+            "date":"LIFE EVENTS",
             "description":"Succeed life goals",
             "imgurl":"images/portfolio/achievements.jpg",
             "router":"/Achievement"
         },
         {
-            "date":"Projects",
+            "date":"SERVICES",
             "description":"Individual & group project works",
             "imgurl":"images/portfolio/console.jpg",
             "router":"/Project"
         },
         {
-            "date":"Learnings",
+            "date":"CONTACT ME",
             "description":"learn some thing every day",
             "imgurl":"images/portfolio/learning.jpg",
             "router":"/Learn"
