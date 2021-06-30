@@ -15,7 +15,7 @@ export default class Portfolio extends Component {
               {
                   resumeData.portfolio && resumeData.portfolio.map((item)=>{
                       return(
-                          <Col md="3" xs="12" style={{width:"100%", background:"#ffffff"}}>
+                          <Col md="3" xs="12" style={{width:"100%", background:"#ffffff",marginBottom:"30px"}}>
                           <Link to={`${item.router}`}>
                               <div className="portfolio-item shadow">
                                   {/*<div className="columns portfolio-item">*/}

@@ -33,7 +33,7 @@ export default class Navigation extends Component {
             <nav id="nav-wrap">
                 <a className="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
                 <a className="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
-                <ul id="nav" className="nav">
+                <ul id="nav" className="nav" style={{ display:"block"}}>
                     <li className="current"><a href="http://localhost:3000/">Home</a></li>
                     <li><a href="http://localhost:3000/#about">About</a></li>
                     <li><a href="http://localhost:3000/#resume">Resume</a></li>

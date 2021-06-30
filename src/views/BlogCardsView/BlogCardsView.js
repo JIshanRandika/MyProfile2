@@ -16,18 +16,18 @@ import ContactUs from "../../components/ContactUs";
 import Footer from "../../components/Footer";
 
 
-class BlogCardsCiew extends Component {
+class BlogCardsView extends Component {
     render() {
         return (
 
 
-            <div className="Project">
+            <div className="BlogCardsView">
 
 
 
                 <Navigation resumeData={resumeData}/>
                 <Cards resumeData={resumeData}/>
-                <ContactUs resumeData={resumeData}/>
+                {/*<ContactUs resumeData={resumeData}/>*/}
                 <Footer resumeData={resumeData}/>
             </div>
 
@@ -36,4 +36,4 @@ class BlogCardsCiew extends Component {
     }
 }
 
-export default BlogCardsCiew
+export default BlogCardsView

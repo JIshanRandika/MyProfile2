@@ -17,7 +17,7 @@ class Home extends Component {
         <Header resumeData={resumeData}/>
         <About resumeData={resumeData}/>
           <FrontPageGallery resumeData={resumeData}/>
-        {/*<Resume resumeData={resumeData}/>*/}
+        <Resume resumeData={resumeData}/>
         <Portfolio resumeData={resumeData}/>
         <News resumeData={resumeData}/>
         <ContactUs resumeData={resumeData}/>

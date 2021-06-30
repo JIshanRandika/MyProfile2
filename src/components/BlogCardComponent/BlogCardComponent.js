@@ -14,7 +14,9 @@ import 'aos/dist/aos.css';
 // }
 export default class BlogCardComponent extends Component {
     render() {
-        AOS.init()
+        AOS.init({
+            duration: 2000,
+        })
         let resumeData = this.props.resumeData;
         return (
             <section id="portfolio" style={{background:"#ffffff"}}>
@@ -35,7 +37,7 @@ export default class BlogCardComponent extends Component {
                                     return(
                                         <Col data-aos="fade-up"
                                              // data-aos-anchor-placement="bottom-bottom"
-                                             data-aos-offset="100" md="3" xs="12" style={{width:"100%", background:"#ffffff"}}>
+                                             data-aos-offset="100" md="3" xs="12" style={{width:"100%", background:"#ffffff", marginBottom:"20px"}}>
                                             {/*<Link to={`${item.router}`}>*/}
 
                                                 <div className="shadow">

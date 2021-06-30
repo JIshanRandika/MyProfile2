@@ -1,7 +1,7 @@
 let resumeData = {
     //"imagebaseurl":"",
     "name": "Ishan Randika",
-    "currentRole": "Student at Sabaragamuwa University of Sri Lanka",
+    "currentRole": "Undergraduate at Sabaragamuwa University of Sri Lanka",
     "otherTitles": "",
     "linkedinId":"https://www.linkedin.com/in/IshanRandika",
     "skypeid": "Your skypeid",
@@ -123,7 +123,7 @@ let resumeData = {
       },
       {
         "date":"BLOGS",
-        "description":"Individual & group project works",
+        "description":"Individual & group project",
         "imgurl":"images/portfolio/console.jpg",
           "router":"/blogCards"
       },
@@ -155,7 +155,7 @@ let resumeData = {
         },
         {
             "date":"SERVICES",
-            "description":"Individual & group project works",
+            "description":"Individual & group project",
             "imgurl":"images/portfolio/console.jpg",
             "router":"/Project"
         },
