@@ -12,28 +12,26 @@ export default class Header extends Component {
       
       <header id="home">
 
-         <nav  id="nav-wrap" style={{ display:"block"}}>
-                 {/*<di>HI</di>*/}
-            <a className="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
-            <a className="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
+         {/*<nav  id="nav-wrap" style={{ display:"block"}}>*/}
+         {/*   <a className="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>*/}
+         {/*   <a className="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>*/}
 
+<Navigation/>
+         {/*            <ul id="nav" className="nav" style={{alignContent:"center",display:"block"}}>*/}
+         {/*                <li className="current"><a className="smoothscroll" href="#home">Home</a></li>*/}
+         {/*                <li><a className="smoothscroll" href="#about">About</a></li>*/}
+         {/*                <li><a className="smoothscroll" href="portfolio">Gallery</a></li>*/}
+         {/*                <li><Link to={`/blogCards`}><a className="smoothscroll" href="">Blogs</a></Link></li>*/}
+         {/*                <li><a className="smoothscroll" href="#portfolio">Resume</a></li>*/}
+         {/*                <li><a className="smoothscroll" href="#testimonials">Cerfications</a></li>*/}
+         {/*                <li><a className="smoothscroll" href="#contact">Honors & Awards</a></li>*/}
+         {/*                <li><a className="smoothscroll" href="#contact">Projects</a></li>*/}
+         {/*                <li><a className="smoothscroll" href="#contact">Life</a></li>*/}
+         {/*                <li><a className="smoothscroll" href="#contact">Services</a></li>*/}
+         {/*                <li><a className="smoothscroll" href="#contact">My Updates</a></li>*/}
+         {/*            </ul>*/}
 
-                 {/*<Col md="6" xs="6">*/}
-                     <ul id="nav" className="nav" style={{alignContent:"center",display:"block"}}>
-                         <li className="current"><a className="smoothscroll" href="#home">Home</a></li>
-                         <li><a className="smoothscroll" href="#about">About</a></li>
-                         <li><a className="smoothscroll" href="">Gallery</a></li>
-                         <li><a className="smoothscroll" href="/blogCards">Blogs</a></li>
-                         <li><a className="smoothscroll" href="#portfolio">Resume</a></li>
-                         <li><a className="smoothscroll" href="#testimonials">Cerfications</a></li>
-                         <li><a className="smoothscroll" href="#contact">Honors & Awards</a></li>
-                         <li><a className="smoothscroll" href="#contact">Projects</a></li>
-                         <li><a className="smoothscroll" href="#contact">Life Events</a></li>
-                         <li><a className="smoothscroll" href="#contact">Services</a></li>
-                         <li><a className="smoothscroll" href="#contact">My Updates</a></li>
-                     </ul>
-
-         </nav>
+         {/*</nav>*/}
 
          <div className="row banner">
             <div className="banner-text">

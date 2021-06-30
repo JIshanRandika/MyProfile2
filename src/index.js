@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import Home from './views/Home/Home';
 import BlogCardsView from './views/BlogCardsView/BlogCardsView';
+import ResumeView from './views/ResumeView/ResumeView';
+
 import Learning from './Learning';
 import Achievement from './achievements';
 import Kvns from './components/learning/Kvns';
@@ -39,6 +41,7 @@ const routing = (
             <Route exact path="/acbt" component={Acbt} />
             <Route exact path="/self" component={Self} />
             <Route exact path="/blogCards" component={BlogCardsView} />
+            <Route exact path="/resume" component={ResumeView} />
         </div>
     </Router>
 )

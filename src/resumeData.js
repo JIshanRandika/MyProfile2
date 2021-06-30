@@ -52,6 +52,22 @@ let resumeData = {
 
     ],
     "education":[
+        {
+            "UniversityName":"Sabaragamuwa University of Sri Lanka",
+            "web":"https://www.sab.ac.lk/",
+            "specialization":"Computer Science Diploma Under Edith Cowan University of Australia",
+            "YearRange":"2020- Present",
+            "Achievements":"-----------------------",
+            // "Discription": ""
+        },
+        {
+            "UniversityName":"Australian College of Business and Technologies",
+            "web":"https://www.acbt.net/",
+            "specialization":"Computer Science Diploma Under Edith Cowan University of Australia",
+            "YearRange":"2019- 2020",
+            "Achievements":"-----------------------",
+            // "Discription": ""
+        },
 
       {
         "UniversityName":"Institute of Java and Software Engineer, Sri Lanka",
@@ -119,7 +135,7 @@ let resumeData = {
         "date":"RESUME",
         "description":"Happy for ever",
         "imgurl":"images/portfolio/girl.jpg",
-          "router":"/MyLife"
+          "router":"/resume"
       },
       {
         "date":"BLOGS",
@@ -148,7 +164,7 @@ let resumeData = {
             "router":"/Achievement"
         },
         {
-            "date":"LIFE EVENTS",
+            "date":"LIFE",
             "description":"Succeed life goals",
             "imgurl":"images/portfolio/achievements.jpg",
             "router":"/Achievement"

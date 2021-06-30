@@ -23,13 +23,7 @@ export default class BlogCardComponent extends Component {
                 {/*<div className="row">*/}
                     {/*<div className="twelve columns collapsed">*/}
                         {/*<h1>Check Out My Learnings.</h1>*/}
-                        {
-                            resumeData.projectCards && resumeData.projectCards.map((item)=>{
-                                return(
-                                    <h1>My Blogs</h1>
-                                )
-                            })
-                        }
+                         <h1 style={{fontSize:"25px",color:"#95A3A3"}}>My Blogs</h1>
                         <Row style={{width:"100%", marginBottom:"20px"}}>
 
                             {
