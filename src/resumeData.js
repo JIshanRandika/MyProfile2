@@ -134,19 +134,19 @@ let resumeData = {
       {
         "date":"RESUME",
         "description":"Happy for ever",
-        "imgurl":"images/portfolio/girl.jpg",
+        "imgurl":"images/portfolio/resume.jpg",
           "router":"/resume"
       },
       {
         "date":"BLOGS",
         "description":"Individual & group project",
-        "imgurl":"images/portfolio/console.jpg",
+        "imgurl":"images/portfolio/blogs.jpg",
           "router":"/blogCards"
       },
       {
         "date":"CERTIFICATION",
         "description":"learn some thing every day",
-        "imgurl":"images/portfolio/learning.jpg",
+        "imgurl":"images/portfolio/certifications.jpg",
           "router":"/Learn"
 
       },
@@ -154,31 +154,31 @@ let resumeData = {
       {
         "date":"PROJECTS",
         "description":"Succeed life goals",
-        "imgurl":"images/portfolio/achievements.jpg",
+        "imgurl":"images/portfolio/projects.jpg",
           "router":"/Achievement"
       },
         {
             "date":"HONORS & AWARDS",
             "description":"Succeed life goals",
-            "imgurl":"images/portfolio/achievements.jpg",
+            "imgurl":"images/portfolio/awards.jpg",
             "router":"/Achievement"
         },
         {
             "date":"LIFE",
             "description":"Succeed life goals",
-            "imgurl":"images/portfolio/achievements.jpg",
+            "imgurl":"images/portfolio/life.jpg",
             "router":"/Achievement"
         },
         {
             "date":"SERVICES",
             "description":"Individual & group project",
-            "imgurl":"images/portfolio/console.jpg",
+            "imgurl":"images/portfolio/services.jpg",
             "router":"/Project"
         },
         {
-            "date":"CONTACT ME",
+            "date":"Testimonial",
             "description":"learn some thing every day",
-            "imgurl":"images/portfolio/learning.jpg",
+            "imgurl":"images/portfolio/testimonial.jpg",
             "router":"/Learn"
 
         }

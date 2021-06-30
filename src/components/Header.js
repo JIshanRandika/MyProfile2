@@ -2,10 +2,15 @@ import React, {Component} from 'react';
 import {Link} from 'react-router-dom'
 import Navigation from './Navigation';
 import Clock from 'react-digital-clock';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import {Row,Col} from "react-bootstrap";
 // import('./components/Navigation').then(Navigation => Navigation.default);
 export default class Header extends Component {
   render() {
+      AOS.init({
+          duration: 2000,
+      })
     let resumeData = this.props.resumeData;
     return (
       <React.Fragment>
@@ -35,8 +40,12 @@ export default class Header extends Component {
 
          <div className="row banner">
             <div className="banner-text">
-               <h1 className="responsive-headline">{resumeData.name}</h1>
-               <h2 style={{color:'#fff', fontFamily:'sans-serif '}}>{resumeData.currentRole}
+               <h1 data-aos="fade-up"
+                   data-aos-offset="100" md="3" xs="12"
+                   className="responsive-headline">{resumeData.name}</h1>
+               <h2 data-aos="fade-up"
+                   data-aos-offset="100" md="3" xs="12"
+                   style={{color:'#fff', fontFamily:'sans-serif '}}>{resumeData.currentRole}
                </h2>
                 <h5 style={{color:'#fff', fontFamily:'sans-serif '}}>{resumeData.otherTitles}
                 </h5>
@@ -46,7 +55,9 @@ export default class Header extends Component {
                   {
                     resumeData.socialLinks && resumeData.socialLinks.map(item =>{
                       return(
-                              <li key={item.date}>
+                              <li data-aos="fade-up"
+                                  data-aos-offset="100" md="3" xs="12"
+                                  key={item.date}>
                                 <a href={item.url} target="_blank"><i className={item.className} aria-hidden="true"></i></a>
                               </li>
                             )
@@ -54,7 +65,9 @@ export default class Header extends Component {
                     )
                   }
                </ul>
-                <h4>
+                <h4 data-aos="fade-up"
+                    data-aos-offset="100" md="3" xs="12"
+                >
                     <Clock/>
                 </h4>
             </div>
