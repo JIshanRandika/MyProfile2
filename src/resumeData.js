@@ -113,8 +113,14 @@ let resumeData = {
     "skillsDescription":"Your skills here",
     "skills":[
       {
-        "skillname":"react"
+        "skillname":"reactjs"
       },
+        {
+            "skillname":"reactnative"
+        },
+        {
+            "skillname":"nodejs"
+        },
       {
         "skillname":"java"
       },

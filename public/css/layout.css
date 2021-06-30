@@ -325,8 +325,18 @@ ul#nav li.current a { color: #F06000; }
    line-height: 42px;
    border-radius: 3px 0 0 3px;
 }
-.react {
+.reactjs {
+    width: 60%;
+    -moz-animation: cpp 2s ease;
+    -webkit-animation: cpp 2s ease;
+}
+.reactnative {
     width: 50%;
+    -moz-animation: cpp 2s ease;
+    -webkit-animation: cpp 2s ease;
+}
+.nodejs {
+    width: 45%;
     -moz-animation: cpp 2s ease;
     -webkit-animation: cpp 2s ease;
 }
@@ -336,7 +346,7 @@ ul#nav li.current a { color: #F06000; }
   	-webkit-animation: cpp 2s ease;
 }
 .java {
-  	width: 55%;
+  	width: 65%;
   	-moz-animation: java 2s ease;
   	-webkit-animation: java 2s ease;
 }

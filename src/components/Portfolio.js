@@ -17,10 +17,10 @@ export default class Portfolio extends Component {
                       return(
                           <Col md="3" xs="12" style={{width:"100%", background:"#ffffff",marginBottom:"30px"}}>
                           <Link to={`${item.router}`}>
-                              <div className="portfolio-item shadow">
+                              <div style={{padding:"10px"}} className="portfolio-item shadow">
                                   {/*<div className="columns portfolio-item">*/}
                                   <div className="item-wrap">
-                                      <img src={`${item.imgurl}`} className="item-img"/>
+                                      <img src={`${item.imgurl}`}  className="item-img"/>
                                       {/*<link href="%PUBLIC_URL%/css/layout.css"></link>*/}
                                       <div className="overlay">
                                           <div className="portfolio-item-meta">
