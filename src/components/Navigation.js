@@ -98,9 +98,11 @@ export default class Navigation extends Component {
                     <li><a className="smoothscroll" href="#">Life</a></li>
                     <li><a className="smoothscroll" href="#">Services</a></li>
                     <li><a className="smoothscroll" href="http://localhost:3000/#testimonials">My Updates</a></li>
+                    <li><Link to={`/testimonial`}><a>Testimonial</a></Link></li>
                     {/*<li><a className="smoothscroll" href="http://localhost:3000/#resume">Resume</a></li>*/}
                     {/*<li><a className="smoothscroll" href="http://localhost:3000/#portfolio">Works</a></li>*/}
                     {/*/!*<News resumeData={resumeData}/>*!/*/}
+
                     {/*<li><a className="smoothscroll" href="http://localhost:3000/#testimonials">News</a></li>*/}
                     {/*<li><a className="smoothscroll" href="http://localhost:3000/#contact">Contact</a></li>*/}
                 </ul>

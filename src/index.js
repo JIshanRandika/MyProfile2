@@ -4,6 +4,8 @@ import './index.css';
 import Home from './views/Home/Home';
 import BlogCardsView from './views/BlogCardsView/BlogCardsView';
 import ResumeView from './views/ResumeView/ResumeView';
+import TestimonialView from './views/TestimonialView/TestimonialView';
+
 
 import Learning from './Learning';
 import Achievement from './achievements';
@@ -42,6 +44,7 @@ const routing = (
             <Route exact path="/self" component={Self} />
             <Route exact path="/blogCards" component={BlogCardsView} />
             <Route exact path="/resume" component={ResumeView} />
+            <Route exact path="/testimonial" component={TestimonialView} />
         </div>
     </Router>
 )
