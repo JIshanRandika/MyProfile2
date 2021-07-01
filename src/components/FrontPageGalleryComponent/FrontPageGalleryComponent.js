@@ -75,11 +75,11 @@ function shuffleArray (array) {
 Demo1.defaultProps = {
     images: shuffleArray([
         {
-            src: "https://c5.staticflickr.com/9/8768/28941110956_b05ab588c1_b.jpg",
-            thumbnail: "https://c5.staticflickr.com/9/8768/28941110956_b05ab588c1_n.jpg",
+            src: "https://raw.githubusercontent.com/JIshanRandika/MyProfile2/master/public/images/Gallery/G1.jpg",
+            thumbnail: "https://raw.githubusercontent.com/JIshanRandika/MyProfile2/master/public/images/Gallery/G1.jpg",
             thumbnailWidth: 300,
             thumbnailHeight: 320,
-            caption: "8H (gratisography.com)"
+            caption: "Hanthana"
         },
         {
             src: "https://c3.staticflickr.com/9/8583/28354353794_9f2d08d8c0_b.jpg",
