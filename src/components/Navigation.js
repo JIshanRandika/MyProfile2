@@ -8,12 +8,54 @@ import Button from "react-bootstrap/Button";
 import FormControl from "react-bootstrap/FormControl";
 import {Link} from "react-router-dom";
 
+import { StyleSheet, css } from "aphrodite";
 
 
 export default class Navigation extends Component {
+
     render() {
+        // let mql = window.matchMedia('(max-width: 600px)');
+        //
+        // document.querySelector(".mq-value").innerText = mql.matches;
+
+        // const styles = StyleSheet.create({
+        //     heading: {
+        //         textAlign: "right",
+        //         backgroundColor: "red",
+        //         "@media (max-width: 767px)": {
+        //             textAlign: "center",
+        //             backgroundColor: "green"
+        //         },
+        //         // "@media (max-width: 767px)": {
+        //         //     textAlign: "center",
+        //         //     backgroundColor: "blue"
+        //         // }
+        //     }
+        // });
+        // Create a media condition that targets viewports at least 768px wide
+        const mediaQuery = window.matchMedia('(max-width: 600px)')
+        const start = document.getElementById("start");
+// Check if the media query is true
+
+        if (mediaQuery.matches) {
+
+            // Then trigger an alert
+            // document.body.style.backgroundColor = "blue";
+            alert('Use your PC or Laptop for best look!')
+            // start.style.display = "block";
+        }else {
+            // start.style.display = "block";
+        }
+        // const divStyle = {
+        //
+        //     background:"blue",
+        //     display:"block"
+        //     // backgroundImage: 'url(' + imgUrl + ')',
+        // };
+
         let resumeData = this.props.resumeData;
         return (
+
 
 
      //       <Navbar id="navigation" bg="primary" variant="dark">
@@ -44,7 +86,7 @@ export default class Navigation extends Component {
             <nav id="nav-wrap">
                 <a className="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
                 <a className="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
-                <ul id="nav" className="nav" style={{ display:"block"}}>
+                <ul id="nav" >
                     <li className="current"><a href="http://localhost:3000/">Home</a></li>
                     <li><a className="smoothscroll" href="http://localhost:3000/#about">About</a></li>
                     <li><a className="smoothscroll" href="http://localhost:3000/#portfolio">Gallery</a></li>

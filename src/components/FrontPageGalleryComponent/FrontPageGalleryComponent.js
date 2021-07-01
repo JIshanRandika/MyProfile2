@@ -79,105 +79,217 @@ Demo1.defaultProps = {
             thumbnail: "https://raw.githubusercontent.com/JIshanRandika/MyProfile2/master/public/images/Gallery/G1.jpg",
             thumbnailWidth: 300,
             thumbnailHeight: 320,
-            caption: "Hanthana"
+            caption: "G1"
         },
         {
-            src: "https://c3.staticflickr.com/9/8583/28354353794_9f2d08d8c0_b.jpg",
-            thumbnail: "https://c3.staticflickr.com/9/8583/28354353794_9f2d08d8c0_n.jpg",
-            thumbnailWidth: 320,
-            thumbnailHeight: 200,
-            caption: "286H (gratisography.com)"
+            src: "https://raw.githubusercontent.com/JIshanRandika/MyProfile2/master/public/images/Gallery/G2.jpg",
+            thumbnail: "https://raw.githubusercontent.com/JIshanRandika/MyProfile2/master/public/images/Gallery/G2.jpg",
+            thumbnailWidth: 280,
+            thumbnailHeight: 280,
+            caption: "G2"
         },
         {
-            src: "https://c7.staticflickr.com/9/8569/28941134686_d57273d933_b.jpg",
-            thumbnail: "https://c7.staticflickr.com/9/8569/28941134686_d57273d933_n.jpg",
-            thumbnailWidth: 320,
+            src: "https://raw.githubusercontent.com/JIshanRandika/MyProfile2/master/public/images/Gallery/G3.jpg",
+            thumbnail: "https://raw.githubusercontent.com/JIshanRandika/MyProfile2/master/public/images/Gallery/G3.jpg",
+            thumbnailWidth: 140,
             thumbnailHeight: 148,
-            caption: "315H (gratisography.com)"
+            caption: "G3"
         },
         {
-            src: "https://c6.staticflickr.com/9/8342/28897193381_800db6419e_b.jpg",
-            thumbnail: "https://c6.staticflickr.com/9/8342/28897193381_800db6419e_n.jpg",
-            thumbnailWidth: 320,
+            src: "https://raw.githubusercontent.com/JIshanRandika/MyProfile2/master/public/images/Gallery/G4.jpg",
+            thumbnail: "https://raw.githubusercontent.com/JIshanRandika/MyProfile2/master/public/images/Gallery/G4.jpg",
+            thumbnailWidth: 180,
             thumbnailHeight: 213,
             isSelected: true,
-            caption: "201H (gratisography.com)"
+            caption: "G4"
         },
         {
-            src: "https://c2.staticflickr.com/9/8239/28897202241_1497bec71a_b.jpg",
-            thumbnail: "https://c2.staticflickr.com/9/8239/28897202241_1497bec71a_n.jpg",
+            src: "https://raw.githubusercontent.com/JIshanRandika/MyProfile2/master/public/images/Gallery/G5.jpg",
+            thumbnail: "https://raw.githubusercontent.com/JIshanRandika/MyProfile2/master/public/images/Gallery/G5.jpg",
             thumbnailWidth: 248,
             thumbnailHeight: 320,
-            caption: "Big Ben (Tom Eversley - isorepublic.com)"
+            caption: "G5"
         },
         {
-            src: "https://c1.staticflickr.com/9/8785/28687743710_870813dfde_h.jpg",
-            thumbnail: "https://c1.staticflickr.com/9/8785/28687743710_3580fcb5f0_n.jpg",
+            src: "https://raw.githubusercontent.com/JIshanRandika/MyProfile2/master/public/images/Gallery/G6.jpg",
+            thumbnail: "https://raw.githubusercontent.com/JIshanRandika/MyProfile2/master/public/images/Gallery/G6.jpg",
             thumbnailWidth: 320,
             thumbnailHeight: 113,
             isSelected: true,
-            caption: "Red Zone - Paris (Tom Eversley - isorepublic.com)"
+            caption: "G6"
         },
         {
-            src: "https://c6.staticflickr.com/9/8520/28357073053_cafcb3da6f_b.jpg",
-            thumbnail: "https://c6.staticflickr.com/9/8520/28357073053_cafcb3da6f_n.jpg",
+            src: "https://raw.githubusercontent.com/JIshanRandika/MyProfile2/master/public/images/Gallery/G7.jpg",
+            thumbnail: "https://raw.githubusercontent.com/JIshanRandika/MyProfile2/master/public/images/Gallery/G7.jpg",
             thumbnailWidth: 313,
             thumbnailHeight: 320,
-            caption: "Wood Glass (Tom Eversley - isorepublic.com)"
+            caption: "G7"
         },
         {
-            src: "https://c8.staticflickr.com/9/8104/28973555735_ae7c208970_b.jpg",
-            thumbnail: "https://c8.staticflickr.com/9/8104/28973555735_ae7c208970_n.jpg",
+            src: "https://raw.githubusercontent.com/JIshanRandika/MyProfile2/master/public/images/Gallery/G8.jpg",
+            thumbnail: "https://raw.githubusercontent.com/JIshanRandika/MyProfile2/master/public/images/Gallery/G8.jpg",
             thumbnailWidth: 320,
             thumbnailHeight: 213,
             isSelected: true,
-            caption: "Flower Interior Macro (Tom Eversley - isorepublic.com)"
+            caption: "G8"
         },
         {
-            src: "https://c7.staticflickr.com/9/8569/28941134686_d57273d933_b.jpg",
-            thumbnail: "https://c7.staticflickr.com/9/8569/28941134686_d57273d933_n.jpg",
-            thumbnailWidth: 320,
-            thumbnailHeight: 148,
-            caption: "315H (gratisography.com)"
+            src: "https://raw.githubusercontent.com/JIshanRandika/MyProfile2/master/public/images/Gallery/G9.png",
+            thumbnail: "https://raw.githubusercontent.com/JIshanRandika/MyProfile2/master/public/images/Gallery/G9.png",
+            thumbnailWidth: 313,
+            thumbnailHeight: 320,
+            caption: "G9"
         },
         {
-            src: "https://c6.staticflickr.com/9/8342/28897193381_800db6419e_b.jpg",
-            thumbnail: "https://c6.staticflickr.com/9/8342/28897193381_800db6419e_n.jpg",
+            src: "https://raw.githubusercontent.com/JIshanRandika/MyProfile2/master/public/images/Gallery/G10.jpg",
+            thumbnail: "https://raw.githubusercontent.com/JIshanRandika/MyProfile2/master/public/images/Gallery/G10.jpg",
             thumbnailWidth: 320,
             thumbnailHeight: 213,
             isSelected: true,
-            caption: "201H (gratisography.com)"
+            caption: "G10"
         },
         {
-            src: "https://c2.staticflickr.com/9/8239/28897202241_1497bec71a_b.jpg",
-            thumbnail: "https://c2.staticflickr.com/9/8239/28897202241_1497bec71a_n.jpg",
+            src: "https://raw.githubusercontent.com/JIshanRandika/MyProfile2/master/public/images/Gallery/G11.jpg",
+            thumbnail: "https://raw.githubusercontent.com/JIshanRandika/MyProfile2/master/public/images/Gallery/G11.jpg",
             thumbnailWidth: 248,
             thumbnailHeight: 320,
-            caption: "Big Ben (Tom Eversley - isorepublic.com)"
+            caption: "G11"
         },
         {
-            src: "https://c1.staticflickr.com/9/8785/28687743710_870813dfde_h.jpg",
-            thumbnail: "https://c1.staticflickr.com/9/8785/28687743710_3580fcb5f0_n.jpg",
-            thumbnailWidth: 320,
+            src: "https://raw.githubusercontent.com/JIshanRandika/MyProfile2/master/public/images/Gallery/G12.jpg",
+            thumbnail: "https://raw.githubusercontent.com/JIshanRandika/MyProfile2/master/public/images/Gallery/G12.jpg",
+            thumbnailWidth: 120,
             thumbnailHeight: 113,
             isSelected: true,
-            caption: "Red Zone - Paris (Tom Eversley - isorepublic.com)"
+            caption: "G12"
         },
         {
-            src: "https://c6.staticflickr.com/9/8520/28357073053_cafcb3da6f_b.jpg",
-            thumbnail: "https://c6.staticflickr.com/9/8520/28357073053_cafcb3da6f_n.jpg",
+            src: "https://raw.githubusercontent.com/JIshanRandika/MyProfile2/master/public/images/Gallery/G13.jpg",
+            thumbnail: "https://raw.githubusercontent.com/JIshanRandika/MyProfile2/master/public/images/Gallery/G13.jpg",
             thumbnailWidth: 313,
             thumbnailHeight: 320,
-            caption: "Wood Glass (Tom Eversley - isorepublic.com)"
+            caption: "G13"
         },
         {
-            src: "https://c8.staticflickr.com/9/8104/28973555735_ae7c208970_b.jpg",
-            thumbnail: "https://c8.staticflickr.com/9/8104/28973555735_ae7c208970_n.jpg",
+            src: "https://raw.githubusercontent.com/JIshanRandika/MyProfile2/master/public/images/Gallery/G14.jpg",
+            thumbnail: "https://raw.githubusercontent.com/JIshanRandika/MyProfile2/master/public/images/Gallery/G14.jpg",
             thumbnailWidth: 320,
             thumbnailHeight: 213,
             isSelected: true,
-            caption: "Flower Interior Macro (Tom Eversley - isorepublic.com)"
-        }
+            caption: "G14"
+        },
+        {
+            src: "https://raw.githubusercontent.com/JIshanRandika/MyProfile2/master/public/images/Gallery/G15.jpg",
+            thumbnail: "https://raw.githubusercontent.com/JIshanRandika/MyProfile2/master/public/images/Gallery/G15.jpg",
+            thumbnailWidth: 313,
+            thumbnailHeight: 320,
+            caption: "G15"
+        },
+        {
+            src: "https://raw.githubusercontent.com/JIshanRandika/MyProfile2/master/public/images/Gallery/G16.jpg",
+            thumbnail: "https://raw.githubusercontent.com/JIshanRandika/MyProfile2/master/public/images/Gallery/G16.jpg",
+            thumbnailWidth: 313,
+            thumbnailHeight: 320,
+            caption: "G16"
+        },
+        {
+            src: "https://raw.githubusercontent.com/JIshanRandika/MyProfile2/master/public/images/Gallery/G17.jpg",
+            thumbnail: "https://raw.githubusercontent.com/JIshanRandika/MyProfile2/master/public/images/Gallery/G17.jpg",
+            thumbnailWidth: 313,
+            thumbnailHeight: 320,
+            caption: "G17"
+        },
+        {
+            src: "https://raw.githubusercontent.com/JIshanRandika/MyProfile2/master/public/images/Gallery/G18.jpg",
+            thumbnail: "https://raw.githubusercontent.com/JIshanRandika/MyProfile2/master/public/images/Gallery/G18.jpg",
+            thumbnailWidth: 313,
+            thumbnailHeight: 320,
+            caption: "G18"
+        },
+        {
+            src: "https://raw.githubusercontent.com/JIshanRandika/MyProfile2/master/public/images/Gallery/G19.jpg",
+            thumbnail: "https://raw.githubusercontent.com/JIshanRandika/MyProfile2/master/public/images/Gallery/G19.jpg",
+            thumbnailWidth: 313,
+            thumbnailHeight: 320,
+            caption: "G19"
+        },
+        {
+            src: "https://raw.githubusercontent.com/JIshanRandika/MyProfile2/master/public/images/Gallery/G20.jpg",
+            thumbnail: "https://raw.githubusercontent.com/JIshanRandika/MyProfile2/master/public/images/Gallery/G20.jpg",
+            thumbnailWidth: 313,
+            thumbnailHeight: 320,
+            caption: "G20"
+        },
+        {
+            src: "https://raw.githubusercontent.com/JIshanRandika/MyProfile2/master/public/images/Gallery/G21.jpg",
+            thumbnail: "https://raw.githubusercontent.com/JIshanRandika/MyProfile2/master/public/images/Gallery/G21.jpg",
+            thumbnailWidth: 313,
+            thumbnailHeight: 320,
+            caption: "G21"
+        },
+        {
+            src: "https://raw.githubusercontent.com/JIshanRandika/MyProfile2/master/public/images/Gallery/G22.jpg",
+            thumbnail: "https://raw.githubusercontent.com/JIshanRandika/MyProfile2/master/public/images/Gallery/G22.jpg",
+            thumbnailWidth: 313,
+            thumbnailHeight: 320,
+            caption: "G22"
+        },
+        {
+            src: "https://raw.githubusercontent.com/JIshanRandika/MyProfile2/master/public/images/Gallery/G23.jpg",
+            thumbnail: "https://raw.githubusercontent.com/JIshanRandika/MyProfile2/master/public/images/Gallery/G23.jpg",
+            thumbnailWidth: 313,
+            thumbnailHeight: 320,
+            caption: "G23"
+        },
+        {
+            src: "https://raw.githubusercontent.com/JIshanRandika/MyProfile2/master/public/images/Gallery/G24.jpg",
+            thumbnail: "https://raw.githubusercontent.com/JIshanRandika/MyProfile2/master/public/images/Gallery/G24.jpg",
+            thumbnailWidth: 313,
+            thumbnailHeight: 320,
+            caption: "G24"
+        },
+        {
+            src: "https://raw.githubusercontent.com/JIshanRandika/MyProfile2/master/public/images/Gallery/G25.jpg",
+            thumbnail: "https://raw.githubusercontent.com/JIshanRandika/MyProfile2/master/public/images/Gallery/G25.jpg",
+            thumbnailWidth: 313,
+            thumbnailHeight: 320,
+            caption: "G25"
+        },
+        {
+            src: "https://raw.githubusercontent.com/JIshanRandika/MyProfile2/master/public/images/Gallery/G26.jpg",
+            thumbnail: "https://raw.githubusercontent.com/JIshanRandika/MyProfile2/master/public/images/Gallery/G26.jpg",
+            thumbnailWidth: 313,
+            thumbnailHeight: 320,
+            caption: "G26"
+        },
+        {
+            src: "https://raw.githubusercontent.com/JIshanRandika/MyProfile2/master/public/images/Gallery/G27.jpg",
+            thumbnail: "https://raw.githubusercontent.com/JIshanRandika/MyProfile2/master/public/images/Gallery/G27.jpg",
+            thumbnailWidth: 313,
+            thumbnailHeight: 320,
+            caption: "G27"
+        },
+        {
+            src: "https://raw.githubusercontent.com/JIshanRandika/MyProfile2/master/public/images/Gallery/G28.jpg",
+            thumbnail: "https://raw.githubusercontent.com/JIshanRandika/MyProfile2/master/public/images/Gallery/G28.jpg",
+            thumbnailWidth: 313,
+            thumbnailHeight: 320,
+            caption: "G28"
+        },
+        {
+            src: "https://raw.githubusercontent.com/JIshanRandika/MyProfile2/master/public/images/Gallery/G29.jpg",
+            thumbnail: "https://raw.githubusercontent.com/JIshanRandika/MyProfile2/master/public/images/Gallery/G29.jpg",
+            thumbnailWidth: 313,
+            thumbnailHeight: 320,
+            caption: "G29"
+        },
+        {
+            src: "https://raw.githubusercontent.com/JIshanRandika/MyProfile2/master/public/images/Gallery/G30.jpg",
+            thumbnail: "https://raw.githubusercontent.com/JIshanRandika/MyProfile2/master/public/images/Gallery/G30.jpg",
+            thumbnailWidth: 313,
+            thumbnailHeight: 320,
+            caption: "G30"
+        },
     ])
 };
 
