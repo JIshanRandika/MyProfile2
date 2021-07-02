@@ -19,7 +19,7 @@ let resumeData = {
         },
         {
           "date":"skype",
-          "url":"https://twitter.com/j_randika",
+          "url":"https://www.facebook.com/JayaweerageIshanRandika/",
           "className":"fa fa-facebook"
         },
         {
@@ -29,7 +29,7 @@ let resumeData = {
         },
         {
             "date":"skype",
-            "url":"https://twitter.com/j_randika",
+            "url":"https://www.instagram.com/jishanrandika/",
             "className":"fa fa-instagram"
         },
         // {
