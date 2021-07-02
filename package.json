@@ -7,6 +7,8 @@
     "node": "10.15.3"
   },
   "dependencies": {
+    "@material-ui/core": "^4.11.4",
+    "@material-ui/icons": "^4.11.2",
     "aos": "^2.3.4",
     "aphrodite": "^2.4.0",
     "babel-preset-react-app": "^3.1.2",
@@ -31,10 +33,12 @@
     "react-scrolllock": "^5.0.1",
     "react-sidebar": "^3.0.2",
     "react-simple-sidenav": "^1.0.1",
+    "react-slick": "^0.28.1",
     "react-swift-slider": "^6.3.0",
     "react-upvote": "0.0.2",
     "reactstrap": "^8.9.0",
     "redux": "^4.0.1",
+    "slick-carousel": "^1.8.1",
     "video-react": "^0.14.0"
   },
   "scripts": {
