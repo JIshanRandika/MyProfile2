@@ -5,6 +5,8 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import './testimonial.css';
 // import './tm';
+import jQuery from 'jquery';
+
 
 export default class TestimonialComponent extends Component {
 

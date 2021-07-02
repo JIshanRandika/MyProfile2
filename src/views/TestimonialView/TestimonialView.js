@@ -6,7 +6,7 @@ import Button from 'react-bootstrap/Button';
 
 import resumeData from '../../resumeData';
 import Navigation from "../../components/Navigation";
-import TestimonialComponent from "../../components/TestimonialComponent/TestimonialComponent";
+import TestimonialComponent2 from "../../components/TestimonialComponent2/TestimonialComponent2";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Form from "react-bootstrap/Form";
@@ -26,7 +26,7 @@ class TestimonialView extends Component {
 
 
                 <Navigation resumeData={resumeData}/>
-                <TestimonialComponent resumeData={resumeData}/>
+                <TestimonialComponent2 resumeData={resumeData}/>
                 {/*<ContactUs resumeData={resumeData}/>*/}
                 <Footer resumeData={resumeData}/>
             </div>
